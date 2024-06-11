@@ -1,6 +1,8 @@
 import React from 'react';
 import Hero from './Components/Hero'
 import Navbar from './Components/Navbar';
+import About from './Components/About';
+import Technologies from './Components/Technologies';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <div className='container mx-auto px-8'>
       <Navbar/>
       <Hero/>
+      <About/>
+      <Technologies/>
       </div>
     </div>
   )

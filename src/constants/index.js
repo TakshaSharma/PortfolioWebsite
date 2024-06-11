@@ -3,39 +3,26 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `As an accomplished Frontend Developer, I bring a wealth of experience in crafting dynamic and visually stunning web experiences. Proficient in cutting-edge technologies such as React.js, Next.js, Framer Motion, and Tailwind CSS, I have leveraged my expertise to develop a diverse array of projects, showcasing a deep understanding of frontend development principles. With a keen eye for detail and a passion for innovation, I am dedicated to delivering exceptional user-centric solutions that push the boundaries of web development.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `With a focus on frontend development, I excel in creating intuitive and dynamic web applications. Through a series of projects, I've honed my skills and developed a deep understanding of modern frontend technologies. My journey in web development started with a fascination for problem-solving, leading me to a career where I thrive on continuous learning and adaptation. Collaborative by nature, I enjoy tackling challenges and delivering high-quality solutions while actively contributing to open-source initiatives.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
+    year: "01/2024 - 02/2024",
+    role: "UI/UX Designer",
+    company: "Gruby.",
+    description: `As a former UI/UX designer at Gruby, I specialized in crafting intuitive interfaces. Leveraging my expertise in Figma, I skillfully designed an engaging food ordering website with a strong focus on user experience.`,
     technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
+    year: "12/2023 - 01/2024",
+    role: "Graphic Designer",
+    company: "Bhagyot",
+    description: `I designed visually appealing graphics for a leading jewelry e-commerce company's social media posts, advertisements, and promotional materials. In addition to this, I assisted in marketing campaigns and strategies by providing creative design solutions.`,
     technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
   },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+  
 ];
 
 export const PROJECTS = [
