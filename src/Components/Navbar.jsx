@@ -1,9 +1,10 @@
 import React from 'react'
 import logo from '../assets/logo.png'
-import {FaLinkedin} from "react-icons/fa";
-import {FaGithub} from "react-icons/fa";
-import {FaSquareXTwitter} from "react-icons/fa6";
-import {FaInstagram} from "react-icons/fa";
+// import { Link } from 'react-router-dom'
+import Hero from './Hero'
+import About from './About'
+import Contact from './Contact'
+
 
 
 const Navbar = () => {
@@ -12,12 +13,12 @@ const Navbar = () => {
        <div className='flex flex-shrink-0 items-center'>
            <img className='mx-3 w-11' src={logo} alt="" />
        </div>
-       <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
-        <FaLinkedin/>
-        <FaGithub/>
-        <FaGithub/>
-        <FaSquareXTwitter/>
-        <FaInstagram/>
+       <div className='m-8 flex items-center justify-center gap-4 text-xl'>
+        
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+
        </div>
     </nav>
   )
