@@ -6,7 +6,7 @@ import { IoLogoGithub } from "react-icons/io";
 
 const Contact = () => {
   return (
-    <div className='border-b border-neutral-900 pb-20'>
+    <div className='border-b border-neutral-900 pb-19'>
       
       <motion.h1 
       whileInView={{opacity: 1, y:0}}
