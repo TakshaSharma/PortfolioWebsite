@@ -1,6 +1,6 @@
 # Portfolio Website
 
-A straightforward weather application that fetches and displays current weather information for a specified location using a clean and user-friendly interface. Ideal for anyone looking to quickly check the weather conditions without any hassle.
+I created a portfolio website using React, styled with Tailwind CSS, and enhanced with Framer Motion for seamless animations and an engaging user experience.
 
 ## Live Demo
 
